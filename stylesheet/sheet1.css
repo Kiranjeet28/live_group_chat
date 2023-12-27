@@ -1,0 +1,98 @@
+.logo{
+    background: black;
+    width: 100%;
+    height: 4vh;
+    margin: 0%;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    color: burlywood;
+}
+.logo span{
+    font-size: 40px;
+    font-family: fantasy;
+
+}
+.logo p{   
+    margin-left: 4px;
+    font-size: 20px;
+}
+body{
+    background-image: url(https://th.bing.com/th/id/OIP.9WfXziALPE3osskF9SOv6gAAAA?rs=1&pid=ImgDetMain);
+    font-family: monospace;
+    margin: 0;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+  
+}
+.container{
+    max-width: 955px;
+height: 60vh;
+border: 2px solid burlywood;border-radius: 14px;
+    margin: auto;
+    padding: 32px;
+    margin-bottom: 23px;
+    display: flex;
+    flex-direction: column;
+    scroll-behavior: auto;
+    overflow-y: scroll;
+    background: black;
+}
+
+
+.message{
+    background-color: burlywood;
+    width: 24%;
+    padding: 20px;
+    margin: 17px 12px;
+    border-radius: 10px;
+    font-size: 20px;
+    height: fit-content;
+}
+
+.left{
+    align-self: flex-start;
+    clear: both;
+
+}
+
+.right{
+  clear: both;
+    align-self: flex-end;
+}
+.center{
+    clear: both;
+    align-self: center;
+    background-color: springgreen;
+  }
+
+#sendContainer{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 985px;
+    width: 100%;
+}
+
+#messageInp{
+    border-radius: 6px;
+    height: 34px;
+    font-size: 20px;
+    width: 92%;
+
+}
+
+.btn{
+    color: white;
+    cursor: pointer;
+    border-radius: 6px;
+    height: 40px;
+    font-size: 15px;
+    background: red;
+
+}
+.btn:hover{
+    background-color: pink;
+    color: black;
+}
